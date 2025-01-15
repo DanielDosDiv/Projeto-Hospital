@@ -1,0 +1,809 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    margin-top: 1%;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: none !important;
+}
+
+.meio-nav {
+    display: flex;
+    /* align-items: center; */
+    width: 50%;
+    /* gap: 25%; */
+    justify-content: space-between;
+    font-size: 20px;
+    /* background-color: red; */
+}
+
+.meio-nav a {
+    text-decoration: none;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #38B6FF;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    /* background-color: red; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.medico {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .meio-nav span{
+    
+    border-width: 2px;
+    height: 0px;
+    width: 100%;
+    border: #38B6FF solid;
+} */
+#carouselExampleInterval {
+    /* background-color: #000; */
+
+    width: 100%;
+    min-height: 469px;
+    border-radius: 22px;
+
+}
+
+.carousel-item h1 {
+    font-size: 9.8rem;
+    font-weight: 700;
+    color: #C6DEFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    z-index: 2;
+}
+
+#card-cardiologista {
+    border-radius: 22px;
+    background-color: #252B61;
+    width: 100%;
+
+    height: 469px;
+
+}
+
+.img-medico img {
+    /* background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 34%;
+    z-index: 4;
+
+}
+
+.img-medico {
+    margin-top: -183px;
+
+}
+
+.medicos-especializados {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    /* background-color: red; */
+    width: 30%;
+    color: #C6DEFD;
+    gap: 15px;
+    display: flex;
+
+}
+
+.medicos-especializados h1 {
+    font-size: 9.8rem;
+}
+
+.medicos-especializados p {
+    align-items: center;
+    /* background-color: #252B61; */
+    margin-top: 15px;
+    font-size: 1.5rem;
+
+
+}
+
+.icon-raio {
+    position: absolute;
+    bottom: 25%;
+    right: -1%;
+    /* background-color: red; */
+    width: 300px;
+    color: #C6DEFD;
+    gap: 15px;
+    display: flex;
+}
+
+.icon-raio p {
+    align-items: center;
+    /* background-color: #252B61; */
+    margin-top: 15px;
+    font-size: 1.5rem;
+    /* height: 60px; */
+
+}
+
+
+html {
+    font-size: 82.6%;
+    /* Isso geralmente é 16px */
+}
+
+#dermatologista img {
+    width: 30%;
+    /* background-color: red; */
+    bottom: 0;
+    left: 2%;
+    position: absolute;
+
+}
+
+#card-dermatologista {
+    background-color: #D98837;
+    border-radius: 22px;
+    width: 100%;
+    height: 469px;
+
+}
+
+#card-odontologista {
+    background-color: #F94545;
+    border-radius: 22px;
+    width: 100%;
+    height: 469px;
+}
+
+#odontologista img {
+    width: 37%;
+    bottom: 0;
+    position: absolute;
+}
+
+#card-pediatria {
+    background-color: #29ceb8;
+    border-radius: 22px;
+    width: 100%;
+    height: 469px;
+}
+
+#pediatria img {
+    width: 37%;
+    /* margin-top: -20%; */
+    margin-left: 32%;
+    bottom: 0;
+    position: absolute;
+}
+
+.preset-btn {
+    width: 289px;
+    height: 100px;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 2px 0px 10px 0px #18396b27;
+    transition: 500ms;
+    font-size: 15px;
+
+}
+
+.preset-btn:hover {
+    width: 350px;
+}
+
+.cirurgia {
+    background-color: #e35e4738;
+
+}
+
+.consulta {
+    background-color: #EAF2FF;
+}
+
+.hospitais {
+    background-color: #1176392a;
+}
+
+.cirurgia-consulta-hospitais {
+    margin-top: 5%;
+    justify-content: center;
+    gap: 25px;
+    display: flex;
+}
+.sub-conteiner{
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+.conteudo-sub-conteiner {
+
+    display: flex;
+    
+}
+
+.conteudo-sub-conteiner h1 {
+    font-size: 78px;
+    font-weight: 700;
+    color: #3C3F40;
+    line-height: 100%;
+}
+
+.conteudo-sub-conteiner h1 p {
+    color: #069ce2;
+    display: block;
+}
+
+.conteudo-sub-conteiner img {
+    width: 125%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+}
+
+.texto-conteiner {
+    /* align-items: center; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 110%;
+    /* background-color: red; */
+}
+
+.sub-conteiner {
+    padding-top: 5%;
+    padding-left: 5%;
+    /* background-color: #29ceb8; */
+    margin-bottom: 10%;
+
+}
+
+.sub-conteiner button {
+    width: 260px;
+    height: 55px;
+    background-color: #069ce2;
+    border-color: transparent;
+    outline: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 500ms;
+
+}
+
+.sub-conteiner button:hover {
+    transform: scale(1.03);
+}
+
+.passo-a-passo h1 {
+    display: flex;
+    color: #3C3F40;
+    justify-content: center;
+    font-weight: 700;
+
+}
+
+.text-consulta {
+    color: #069ce2;
+    /* padding: 5px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-passo-a-passo {
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
+    /* gap: 5%; */
+    width: 100%;
+    margin-top: 10%;
+}
+
+.box-passo-a-passo {
+    width: 30%;
+    height: 142px;
+    /* background-color: red; */
+    border-radius: 15px;
+    border: #575a582a solid 1px;
+    box-shadow: 2px 0px 10px 0px #18396b27;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 500ms;
+    font-size: 1rem;
+    align-items: center;
+    /* gap: 15px; */
+
+
+}
+
+.div-passo-a-passo {
+    margin-bottom: 5%;
+}
+
+.box-passo-a-passo:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.box-passo-a-passo div p {
+    font-weight: 700;
+    /* background-color: red; */
+    color: #069ce2;
+}
+
+.numero_passo {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    /* background-color: red; */
+    border-radius: 50%;
+    border: #069ce2 3px solid;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.info-passo h1 {
+    color: #069ce2;
+    font-size: 18px;
+}
+
+.info-passo p {
+    color: #3C3F40 !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    width: 90%;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.info-passo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.arrow-animate {
+    transform: rotate(450deg);
+    /* background-color: red; */
+}
+
+.alinhar-linha {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.line-preset {
+    transition: width 500ms, opacity 700ms;
+    opacity: 0;
+    width: 0;
+    margin-top: 5px;
+    background-color: red;
+    border: solid 2px #38B6FF;
+}
+
+.item-nav:hover .line-preset {
+    width: 100%;
+    opacity: 1;
+}
+
+.user {
+    transition: 500ms;
+}
+
+.user:hover {
+    /* transform: scale(1.08); */
+    transform: translate(0%, -10%);
+}
+
+
+@media (max-width: 1000px) {
+    .carousel-item h1 {
+        font-size: 6.8rem;
+        font-weight: 700;
+        color: #C6DEFD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        z-index: 2;
+    }
+
+    #carouselExampleInterval {
+        /* background-color: #000; */
+
+        width: 100%;
+        max-height: 469px;
+        border-radius: 22px;
+
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .container {
+        margin-top: 5%;
+    }
+
+    .carousel-item {
+        height: 200px;
+    }
+
+
+    @media (max-width: 900px) {
+        .foto-perfil h1 {
+            font-size: 30px;
+            /* Para telas maiores */
+            width: 300px;
+            left: 120%;
+            font-size: 23px;
+            bottom: -10px;
+        }
+
+        .navbar {
+            display: block;
+        }
+
+        html {
+            font-size: 10px;
+            /* Isso geralmente é 16px */
+            /* background-color: #069ce2; */
+        }
+
+        .carousel-item h1 {
+            font-size: 6.8rem;
+            font-weight: 700;
+            color: #C6DEFD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            z-index: 2;
+        }
+
+        .info-passo p {
+            color: #069ce2;
+            font-size: 7px;
+        }
+
+        .container-user-page {
+            margin-top: 12%;
+        }
+
+        .user {
+            margin-right: -60%;
+
+        }
+
+        .navbar {
+            display: block;
+        }
+
+        .titulo-info-conta {
+            font-weight: 700;
+            color: #38B6FF;
+            font-size: 23px;
+            margin-bottom: 5% !important;
+        }
+
+        .nav-web {
+            display: none;
+        }
+
+        .alinhar-info {
+            margin-left: -3%;
+        }
+
+        #carouselExampleInterval {
+            /* background-color: #000; */
+
+            width: 100%;
+            max-height: 190px;
+            border-radius: 22px;
+
+        }
+
+
+    }
+
+    @media (max-width :760px) {
+        .container-user-page {
+            width: 105%;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .foto-perfil h1 {
+            font-size: 15px;
+            /* Para telas maiores */
+            width: 300px;
+            left: 120%;
+            font-size: 18px;
+            bottom: -12px;
+
+        }
+
+        .container-user-page {
+            margin-top: 12%;
+        }
+
+        .user {
+            margin-right: -55%;
+
+        }
+
+
+        .nav-web {
+            display: none;
+        }
+
+        .titulo-info-conta {
+            font-weight: 700;
+            color: #38B6FF;
+            font-size: 18px;
+            margin-bottom: 5% !important;
+        }
+
+        .alinhar-info {
+            margin-left: 3%;
+        }
+
+        .nav-web {
+            display: none;
+        }
+
+    }
+
+    @media (max-width: 660px) {
+        .user {
+            margin-right: -45%;
+
+        }
+    }
+
+    @media (max-width: 414px) {
+        .foto-perfil h1 {
+            font-size: 15px;
+            /* Para telas maiores */
+            width: 300px;
+            left: 120%;
+            font-size: 18px;
+            bottom: -12px;
+
+        }
+
+        .container-user-page {
+            margin-top: 25%;
+        }
+
+        .user {
+            margin-right: -25%;
+
+        }
+
+
+        .nav-web {
+            display: none;
+        }
+
+        .titulo-info-conta {
+            font-weight: 700;
+            color: #38B6FF;
+            font-size: 18px;
+            margin-bottom: 5% !important;
+        }
+
+        .alinhar-info {
+            margin-left: 3%;
+        }
+
+        .nav-web {
+            display: none;
+        }
+
+    }
+
+    @media (max-width: 390px) {
+        .foto-perfil h1 {
+            font-size: 15px;
+            /* Para telas maiores */
+            width: 300px;
+            left: 120%;
+            font-size: 18px;
+            bottom: -12px;
+        }
+
+        .alinhar-info {
+            margin-left: 10%;
+        }
+
+        .container-info-conta {
+            width: 100%;
+        }
+
+        .titulo-info-conta {
+            font-weight: 700;
+            color: #38B6FF;
+            font-size: 18px;
+            margin-bottom: 5% !important;
+        }
+
+        .nav-web {
+            display: none;
+        }
+
+    }
+
+    @media (max-width: 1000px) {
+        .responsive-text {
+            font-size: 24px;
+            /* Para telas ainda maiores */
+        }
+
+        .titulo-info-conta {
+            font-weight: 700;
+            color: #38B6FF;
+            font-size: 25px;
+            margin-bottom: 5% !important;
+        }
+    }
+
+    @media (max-width: 540px) {
+        .user {
+            margin-right: -35%;
+
+        }
+    }
+
+    .navbar-toggler {
+        transition: 500ms;
+    }
+}
+
+
+
+
+.togge-theme{
+    width: 75px;
+    height: 30px;
+    background-color: #38B6FF;
+    border-radius: 50px;
+    display: block;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.togge-theme:hover{
+    cursor: pointer;
+}
+
+.fa-sun{
+    font-size: 18px;
+    margin-left: 8px;
+    position: absolute;
+    opacity: 1;
+    transition: 500ms;
+}
+.fa-sun.active{
+    opacity: 0;
+}
+.fa-moon{
+    font-size: 18px;
+    position: relative;
+    opacity: 0;
+    transition: 500ms;
+    left: 30px;    
+}
+.fa-moon.active{
+    opacity: 1;
+}
+
+.btn-togge{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    left: 45px;
+    transition: 500ms;
+}
+.btn-togge.active{
+    left: 10px;
+
+}
+/* Tema Dark */
+body{
+    transition: 500ms;
+}
+
+[data-theme="dark"]{
+    background-color: #292a2b;
+}
+
+[data-theme="dark"] .conteudo-sub-conteiner h1{
+    color: white;
+}
+
+[data-theme="dark"] .passo-a-passo h1{
+    color: #38b6ffd8;
+}
+[data-theme="dark"] .texto-conteiner p{
+    color: white;
+}
+[data-theme="dark"] .preset-btn p{
+    color: white;
+}
+[data-theme="dark"] .consulta{
+    background-color: #38b6ffd8;
+}
+[data-theme="dark"] .hospitais{
+    background-color: #1176398e;
+}
+[data-theme="dark"] .cirurgia{
+    background-color: #e35e47bd;
+}
+
+[data-theme="dark"] .texto-conteiner p{
+    color: #38b6ffd8;
+}
+[data-theme="dark"] .box-passo-a-passo{
+    border-color: rgb(16, 95, 199);
+    box-shadow: 2px 0px 10px 0px #1463dacc;
+
+}
+[data-theme="dark"] .info-passo p{
+    color: white !important;
+}
+
+
+
+

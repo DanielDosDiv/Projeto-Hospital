@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+.titulo-page{
+
+    display: flex;
+    color: #17A1FA !important; 
+}
+.container-card{
+    margin-top: 5%;
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 100px;
+}
+.container{
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.card-tipo-medico-preset{
+    width: 461px;
+    height: 242px;
+    border-radius:  15px !important;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: 500ms;
+    font-weight: 500 !important;
+    align-items: center;
+}
+.card-tipo-medico-preset:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.card-Urologista{
+    background-color: #1A1260;
+}
+.card-Ortopedista{
+    background-color: #356B27;
+}
+.card-Neurologista{
+    background-color: #AC6927;
+}
+.card-Pediatria{
+    background-color: #6D276B;
+}
+.card-Cardiologista{
+    background-color: #6C1818;
+}
+.card-Otorrinolaringologia{
+    background-color: #A7A935;
+}
+.card-Dermatologia{
+    background-color: #BDAEAE;
+}
+.card-Psiquiatria{
+    background-color: #3B7481;
+}
+.card-Hematologia{
+    background-color: #9A5C5C;
+}
+.card-Oncologia{
+    background-color: #754F2C;
+}
+

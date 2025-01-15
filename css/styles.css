@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(/img/bkg_login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    border-radius: 22px;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+    
+}
+.espacamento{
+    /* background-color: red; */
+    width: 250px;
+}
+.alinar{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.container-left{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+   position: relative;
+    margin-left: 5%;
+    justify-content: center;
+    /* background-color: red; */
+}
+.container-left h1{
+    text-align: center;
+    font-weight: 700;
+    /* margin-top: 50px; */
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+#dermatologista{
+    width: 15% !important;
+    background-color: red;
+}
+.container-right{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ position: absolute;
+ /* background-color: white; */
+ height: 100%;
+ right: 0%;
+ 
+ z-index: 2;
+ width: 45%;
+ 
+}
+.container-right img{
+    width: 85%;
+}
+.container-right{
+    width: 50%;
+    margin-left: 15%;
+    
+    
+}
+#cadastro2{
+    opacity: 0;
+    /* display: none; */
+    transition: 500ms;
+    margin-right: -3%;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 9%;
+   position: relative;
+
+}
+
+#cadastro2.active{
+    opacity: 1;
+    display: block;
+    
+}
+.preset-input{
+    width: 70%;
+    height: 64px;
+    background-color: #F3F3F3;
+    border-radius: 12px;
+    border-color: transparent;
+    outline: none;
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 35px;
+
+}
+.btn-proximo{
+    background-color: #288CE8;
+    width: 90%;
+    height: 64px;
+    border-radius: 12px;
+    border-color: transparent;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 500ms;
+    
+}
+#floatingInput{
+    
+    width: 90%;
+    height: 64px;
+    background-color: #F3F3F3;
+    border-color: transparent;
+    padding-left: 7%;
+}
+
+#form-floating label{
+    
+    background-color: transparent;
+    
+}
+.label{
+    
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.form-floating > input:not(:focus):placeholder-shown + label {
+    background: transparent;
+}
+
+.form-floating > input + label:after {
+   background: transparent !important;
+}
+.slider{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    transition: 500ms;
+    /* background-color: red; */
+    
+}
+#cadastro{
+    margin-right: 0%;
+    /* background-color: red; */
+    width: 100%;
+}
+.slider.active{
+    margin-left: -25%;
+    transform: 500ms;
+}
+.btn-proximo:hover{
+    transform: scale(1.08);
+}
+
+#cadastro.remove{
+    display: none;
+    
+}
+@media (max-width:1680px) {
+    .container-right{
+        display: none; 
+        pointer-events: none;
+        width: 50%;
+        
+    }
+    .espacamento{
+        display: none;
+    }
+    .container-left{
+        width: 100%;
+        /* background-color: red; */
+    }
+    #cadastro2{
+        position: absolute;
+        /* background-color: white; */
+        width:  100%;
+        display: none;
+        transition: 500ms;
+    }
+  
+    .slider.active{
+        margin-left: 0%;
+        margin-top: 5%;
+    }    
+    .slider{
+        /* margin-left: 0%; */
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        transition: 500ms;
+    }
+}
+@media (max-width:1796px) {
+    .container-right img{
+        width: 80%;
+
+    }
+    .container-right{
+        right: -3%;
+    }
+}
+@media (max-width:1724px) {
+    .container-right img{
+        width: 75%;
+
+    }
+    .container-right{
+        right: -4%;
+    }
+}

@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-info-medicos {
+    /* background-color: red; */
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 6%;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tiulo-page {
+    color: #38B6FF;
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+.preset-info-medico {
+    width: 85%;
+    height: 253px;
+    background-color: #D98837;
+    border-radius: 26px;
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-top: 1%;
+    position: relative;
+    margin-bottom: 8%;
+}
+
+.preset-info-medico h1 {
+    font-size: 3rem;
+}
+
+.div-esquerdo {
+    width: 50%;
+}
+
+.info-conteudo-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+
+}
+
+.preset-info-medico {
+    display: flex;
+}
+
+.container-info-medicos {
+    display: flex;
+}
+
+.tipo-medico {
+    margin-bottom: 2%;
+}
+
+.info-medico {
+    align-items: center;
+    display: flex;
+
+    /* background-color: antiquewhite; */
+    gap: 15px;
+}
+
+.info-medico img {
+    display: flex;
+    justify-content: center;
+}
+
+.info-medico p {
+    /* background-color: #38B6FF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.div-direito img {
+    bottom: 0;
+    /* background-color: red; */
+    right: 0;
+    /* display: flex; */
+    max-width: 45%;
+    /* background-color: red; */
+
+    position: absolute;
+
+
+}
+
+.div-direito {
+    background-color: red;
+}
+
+.div-direito {
+    max-width: 50%;
+}
+
+.div-direito p {
+    bottom: 5%;
+    left: 60%;
+    position: absolute;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 25px;
+}
+
+@media (max-width: 1200px) {
+    .preset-info-medico {
+        height: 253px;
+
+    }
+
+    .div-direito img {
+        bottom: 0;
+        /* background-color: red; */
+        right: 0;
+        /* display: flex; */
+        max-width: 55%;
+        /* background-color: red; */
+
+        position: absolute;
+
+
+    }
+ 
+
+}
+
+@media (max-width:940px) {
+    .div-direito img {
+        bottom: 0;
+        /* background-color: red; */
+        right: 0;
+        /* display: flex; */
+        max-width: 60%;
+        /* background-color: red; */
+
+        position: absolute;
+
+
+    }
+    .preset-info-medico h1 {
+        font-size: 25px;
+    }
+    .preset-info-medico{
+        height: 200px;
+        /* width: 450px; */
+    }
+
+
+
+}
+@media (max-width:700px) {
+    .div-direito img {
+        bottom: 0;
+        /* background-color: red; */
+        right: 0;
+        /* display: flex; */
+        max-width: 45%;
+        /* background-color: red; */
+
+        position: absolute;
+
+
+    }
+    .preset-info-medico h1 {
+        font-size: 25px;
+    }
+    .preset-info-medico{
+        height: 150px;
+        width: 450px;
+    }
+
+
+}
+@media (max-width:680px) {
+    .div-direito img {
+        bottom: 0;
+        /* background-color: red; */
+        right: 0;
+        /* display: flex; */
+        max-width: 60%;
+        /* background-color: red; */
+
+        position: absolute;
+
+
+    }
+    .preset-info-medico h1 {
+        font-size: 25px;
+    }
+    .preset-info-medico{
+        height: 150px;
+        /* width: 450px; */
+    }
+    .info-medico{
+        /* display: none; */
+        font-size: 8px;
+        gap: 3px;
+        height: 20px;
+    }
+    .tipo-medico h1{
+        font-size: 15px;
+        width: 250px;
+        background-color: red;
+    }
+    .info-medico img {
+        width: 8%;
+    }
+
+}
+@media (max-width:390px) {
+    .preset-info-medico{
+        height: 150px;
+        width: 350px;
+    }
+}
