@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="img/logo_hospital.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="shortcut icon" href="img/logo_navegador.png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a href="HomePage.html">
+                <div class="logo">
+                    <img src="img/Logos/logo_hospital_escrito.png" alt="">
+                </div>
+            </a>
+            <div class="user">
+                <img src="img/Logos/user_logo.png" alt="">
+            </div>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <img src="img/Logos/medico_icon.png" alt="">
+                  <a class="nav-link active" aria-current="page" href="MedicosPage.html">Médicos</a>
+                </li>
+                <li class="nav-item">
+                    <img src="img/Logos/calendario_icon.png" alt="">
+                  <a class="nav-link" href="CalendarioPage.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                        <img src="img/Logos/home_logo.png" alt="">
+                    <a class="nav-link active" aria-current="page" href="HomePage.html  ">Home</a>
+                  </li>
+              </ul>
+              <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Inicio Nav Bar -->
+    <nav class="nav-web">
+        <a href="HomePage.html">
+            <div class="logo">
+                <img src="img/Logos/logo_hospital_escrito.png" alt="">
+            </div>
+        </a>
+
+        <div class="meio-nav">
+            <div class="home item-nav">
+                <a href="#">
+                    <img src="img/Logos/home_logo.png" alt="">
+                    Home
+                </a>
+                <div class="alinhar-linha">
+                    <div class="line-preset"></div>
+                </div>
+            </div>
+            <div class="calendario item-nav">
+                <a href="#">
+                    <img src="img/Logos/calendario_icon.png" alt="">
+                    Calendario
+                </a>
+                <div class="alinhar-linha" >
+                    <div class="line-preset"></div>
+                </div>
+            </div>
+            <div class="medico item-nav">
+                <a href="MedicosPage.html">
+                    <img src="img/Logos/medico_icon.png" alt="">
+                    Médico
+                </a>
+                <div class="alinhar-linha">
+                    <div class="line-preset"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="togge-theme">
+            <i class="fa-solid fa-sun"></i>
+            <div class="btn-togge"></div>
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        <a href="UserPage.html">
+            
+            <div class="user">
+                <img src="img/Logos/user_logo.png" alt="">
+            </div>
+        </a>
+        
+    </nav>
+
+    <!-- Fim nav Bar -->
+
+
+    <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active " id="card-cardiologista" data-bs-interval="10000">
+
+                    <div class="medicos-especializados">
+                        <img src="img/medicos/icon_grafico.svg" alt="">
+                        <p>Médicos especializados</p>
+                    </div>
+                    <div class="icon-raio">
+                        <img src="img/medicos/icon_raio.svg" alt="">
+                        <p>Atendimento Rapido</p>
+                    </div>
+                    <h1>Cardiologista</h1>
+                    <div class="img-medico">
+                        <img src="img/medicos/urologista_1.png" alt="">
+                    </div>
+
+                </div>
+                <div class="carousel-item" data-bs-interval="10000" id="card-dermatologista">
+
+                    <div class="medicos-especializados">
+                        <img src="img/medicos/icon_grafico.svg" alt="">
+                        <p>Médicos especializados</p>
+                    </div>
+                    <div class="icon-raio">
+                        <img src="img/medicos/icon_raio.svg" alt="">
+                        <p>Atendimento Rapido</p>
+                    </div>
+                    <h1>Dermatologia</h1>
+                    <div class="img-medico" id="dermatologista">
+                        <img src="img/medicos/medico_tema_escuro.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000" id="card-odontologista">
+
+                    <div class="medicos-especializados">
+                        <img src="img/medicos/icon_grafico.svg" alt="">
+                        <p>Médicos especializados</p>
+                    </div>
+                    <div class="icon-raio">
+                        <img src="img/medicos/icon_raio.svg" alt="">
+                        <p>Atendimento Rapido</p>
+                    </div>
+                    <h1>Odontologista</h1>
+                    <div class="img-medico" id="odontologista">
+                        <img src="img/medicos/medico_2.png" alt="">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000" id="card-pediatria">
+
+                    <div class="medicos-especializados">
+                        <img src="img/medicos/icon_grafico.svg" alt="">
+                        <p>Médicos especializados</p>
+                    </div>
+                    <div class="icon-raio">
+                        <img src="img/medicos/icon_raio.svg" alt="">
+                        <p>Atendimento Rapido</p>
+                    </div>
+                    <h1>Neurologista</h1>
+                    <div class="img-medico" id="pediatria">
+                        <img src="img/medicos/medico_gente_boa.png"
+                            alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Fim Carrocel -->
+
+
+
+            <div class="cirurgia-consulta-hospitais">
+                <button class="preset-btn cirurgia">
+                    <img src="img/icons/medico.svg" alt="">
+                    <p>
+                        Cirurgia
+                    </p>
+                </button>
+                <button class="preset-btn consulta">
+                    <img src="img/icons/capsula_png.svg" alt="">
+                    <p>
+                        Consultas
+                    </p>
+                </button>
+                <a href="InfoHospitalPage.html">
+
+                    <button class="preset-btn hospitais">
+                        <img src="img/icons/hospital_png.svg" alt="">
+                        <p>
+                            Hospitais
+                        </p>
+                    </button>
+                </a>
+            </div>
+
+
+            <div class="sub-conteiner">
+                <div class="conteudo-sub-conteiner">
+                    <div class="texto-conteiner">
+                        <p style="color: #069ce2; font-size: 20px; font-weight: 500;">Médico 24 Horas</p>
+                        <h1>Sempre que<p>você precisar</p>
+                        </h1>
+
+                        <p style="font-weight: 300; font-size: 17px;">Você pode realizar uma consulta rapidamente com
+                            apenas alguns cliques.</p>
+                    </div>
+                    <div>
+                        <img src="img/medicos/medico_para_banner.png"" class=" img-fluid" alt="...">
+                    </div>
+                </div>
+                <button onclick="irParaConsultaPage()">Agendar Consulta </button>
+            </div>
+            <div class="passo-a-passo">
+                <h1>Agendar uma <span class="text-consulta"> Consulta </span> é simples</h1>
+                <!--  -->
+                <div class="container-passo-a-passo">
+                    <div class="box-passo-a-passo">
+                        <div class="numero_passo">
+                            <p>1</p>
+                        </div>
+                        <div class="info-passo">
+                            <h1>Escolha a Consulta</h1>
+                            <p>Escolha o tipo de Consulta e o dia que você dejesa realizar</p>
+                        </div>
+                    </div>
+                    <dotlottie-player class="arrow-animate"
+                        src="https://lottie.host/b129f265-075a-4ee3-984e-255f835fd47f/dbGLVceyeJ.json"
+                        background="transparent" speed="1" style="width: 150px; height: 150px;" loop
+                        autoplay></dotlottie-player>
+                    <div class="box-passo-a-passo">
+                        <div class="numero_passo">
+                            <p>2</p>
+                        </div>
+                        <div class="info-passo">
+                            <h1>Escolher o Hospital</h1>
+                            <p>Defina o hospital para realizar sua consulta</p>
+                        </div>
+                    </div>
+                    <dotlottie-player class="arrow-animate"
+                        src="https://lottie.host/b129f265-075a-4ee3-984e-255f835fd47f/dbGLVceyeJ.json"
+                        background="transparent" speed="1" style="width: 150px; height: 150px;" loop
+                        autoplay></dotlottie-player>
+                    <div class="box-passo-a-passo">
+                        <div class="numero_passo">
+                            <p>3</p>
+                        </div>
+                        <div class="info-passo">
+                            <h1>Concluir</h1>
+                            <p>Comparecer na consulta no horário e dia definido</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="height: 5%;">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+</body>
+
+</html>

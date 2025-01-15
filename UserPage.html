@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="img/logo_hospital.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="css/UserPage.css">
+
+
+</head>
+
+<body>
+    <!-- Inicio Nav Bar -->
+    <nav class="nav-web">
+        <a href="HomePage.html">
+            <div class="logo">
+                <img src="img/Logos/logo_hospital_escrito.png" alt="">
+            </div>
+        </a>
+
+        <div class="meio-nav">
+            <div class="home item-nav">
+                <a href="#">
+                    <img src="img/Logos/home_logo.png" alt="">
+                    Home
+                </a>
+                <div class="alinhar-linha">
+                    <div class="line-preset"></div>
+                </div>
+            </div>
+            <div class="calendario item-nav">
+                <a href="CalendarioPage.html">
+                    <img src="img/Logos/calendario_icon.png" alt="">
+                    Calendario
+                </a>
+                <div class="alinhar-linha" >
+                    <div class="line-preset"></div>
+                </div>
+            </div>
+            <div class="medico item-nav">
+                <a href="MedicosPage.html">
+                    <img src="img/Logos/medico_icon.png" alt="">
+                    Médico
+                </a>
+                <div class="alinhar-linha">
+                    <div class="line-preset"></div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="user">
+            <img src="img/Logos/user_logo.png" alt="">
+        </div>
+
+    </nav>
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a href="HomePage.html">
+                <div class="logo">
+                    <img src="img/Logos/logo_hospital_escrito.png" alt="">
+                </div>
+            </a>
+            <div class="user">
+                <img src="img/Logos/user_logo.png" alt="">
+            </div>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <img src="img/Logos/medico_icon.png" alt="">
+                  <a class="nav-link active" aria-current="page" href="MedicosPage.html">Médicos</a>
+                </li>
+                <li class="nav-item">
+                    <img src="img/Logos/calendario_icon.png" alt="">
+                  <a class="nav-link" href="CalendarioPage.html">Calendario</a>
+                </li>
+                <li class="nav-item">
+                        <img src="img/Logos/home_logo.png" alt="">
+                    <a class="nav-link active" aria-current="page" href="HomePage.html  ">Home</a>
+                  </li>
+              </ul>
+              <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container-user-page">
+        <div class="wallpeiper-user">
+            <img src="img/hospitais/wallpeiper_user.png" alt="">
+            <div class="foto-perfil">
+                <div class="img-perfil">
+                    <img src="img/mediica_user.jpg" alt="">
+                    <i class="fa-solid fa-pencil"></i>
+                </div>
+                <h1>Cintia Minha Vara</h1>
+            </div>
+        </div>
+    </div>
+    <div class="alinhar-info">
+
+        <div class="container-info-conta">
+
+            <h1 class="titulo-info-conta">Infomações</h1>
+            <div class="inputs">
+
+                <div class="conteiner-flex">
+                    <div class="form-floating mb-3">
+                        <input type="textt" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Sobrenome</label>
+                    </div>
+                </div>
+                <div class="form-floating input-inteiro mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                        value="Texto padrão" disabled>
+                    <label for="floatingInput" class="label">Email</label>
+                </div>
+                <div class="form-floating input-inteiro mb-3">
+                    <input type="password" class="form-control" id="floatingInput" placeholder="name@example.com"
+                        value="Texto padrão" disabled>
+                    <label for="floatingInput" class="label">Senha</label>
+                </div>
+                <div class="conteiner-flex">
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Data de Nacimento</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Telefone</label>
+                    </div>
+                </div>
+                <div class="conteiner-flex">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Cargo</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">CEP</label>
+                    </div>
+                </div>
+                <div class="conteiner-flex">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Estado</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            value="Texto padrão" disabled>
+                        <label for="floatingInput" class="label">Cidade</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="buttons-container">
+                <button class="sair preset-buttons">
+                    Sair
+                </button>
+                <button class="salvar preset-buttons" onclick="GoToEditUserPage()">
+                    Editar Informações
+                </button>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+</body>
+
+</html>
